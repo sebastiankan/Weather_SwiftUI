@@ -11,7 +11,14 @@ import SwiftUI
 struct WeatherSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
+    }
+    
+    static func setupColorScheme(isDark: Bool) {
+        // We do this via the window so we can access UIKit components too.
+        let window = UIApplication.shared.windows.first
+        window?.overrideUserInterfaceStyle = isDark ? .dark : .light
+        print(window?.overrideUserInterfaceStyle.rawValue)
     }
 }
