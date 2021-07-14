@@ -1,5 +1,8 @@
 # Weather_SwiftUI
 Simple weather app using SwiftUI
+  - MVVM structur
+  - Light and Dark mode
+  - Open Weather Map API
 
 Main screen
 
