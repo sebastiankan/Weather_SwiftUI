@@ -2,7 +2,7 @@
 Simple weather app using SwiftUI
   - MVVM structur
   - Light and Dark mode
-  - Open Weather Map API
+  - weatherapi.com API
 
 Main screen
 
